@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Health - stránka tímu
 
-## Getting Started
+Informačná stránka nášho tímu (Tím 28) z predmetu Tímový projekt na FIIT STU, akademický rok 2026/2027.
 
-First, run the development server:
+Robíme na projekte AI Health. Je to webový asistent pre stomatológiu a ortodonciu, ktorý pomáha lekárovi s analýzou RTG a CBCT snímok a pacientovi ponúka komunikáciu s 3D avatarom.
 
-```bash
+## Spustenie
+
+Treba mať nainštalovaný Node.js.
+
+```
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Stránka potom beží na http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Úpravy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- texty, mená a technológie sú v `src/data/team.ts`
+- vzhľad stránky je v `src/app/page.tsx`
 
-## Learn More
+Stránka je spravená v Next.js a Tailwind CSS.
 
-To learn more about Next.js, take a look at the following resources:
+## Tím
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Bc. Dávid Vach, Bc. Alex Duchoň, Bc. Krištof Kmeť, Bc. Tomáš Horan, Bc. Tomáš Matovič, Bc. Štefan Kučerák, Bc. Július Škrabák
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Vedúci: doc. Ing. Fedor Lehocki, PhD., MPH, doc. Ing. Eduard Kuric, PhD.

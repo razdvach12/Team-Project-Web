@@ -17,12 +17,10 @@ export const project = {
 export const modes = [
   {
     title: "Pre lekára",
-    icon: "🩺",
     text: "Zobrazenie a základná automatizovaná analýza 2D/3D údajov (RTG, CBCT a intraorálne skeny). Systém identifikuje vybrané anatomické štruktúry a prehľadne vizualizuje výsledky segmentácie.",
   },
   {
     title: "Pre pacienta",
-    icon: "💬",
     text: "Jednoduchá komunikácia s AI avatarom a orientačné spracovanie fotografie chrupu s vysvetlením všeobecných informácií o ústnom zdraví.",
   },
 ];

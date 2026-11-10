@@ -110,27 +110,21 @@ export default function Home() {
                 key={m.title}
                 className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
               >
-                <div className="text-3xl">{m.icon}</div>
-                <h3 className="mt-3 text-xl font-semibold">{m.title}</h3>
+                <h3 className="text-xl font-semibold">{m.title}</h3>
                 <p className="mt-2 leading-relaxed text-slate-600">{m.text}</p>
               </div>
             ))}
           </div>
 
           <h3 className="mt-12 text-xl font-semibold">Ciele prototypu</h3>
-          <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+          <ul className="mt-4 list-disc space-y-2 pl-5 leading-relaxed text-slate-700 marker:text-teal-600">
             {goals.map((g) => (
-              <li
-                key={g}
-                className="flex gap-3 rounded-xl bg-teal-50 p-4 text-slate-700"
-              >
-                <span className="text-teal-600">✓</span>
-                {g}
-              </li>
+              <li key={g}>{g}</li>
             ))}
           </ul>
 
-          <p className="mt-8 rounded-xl border-l-4 border-amber-400 bg-amber-50 p-4 text-sm text-amber-900">
+          <p className="mt-8 text-sm text-red-700">
+            <span className="font-semibold">Dôležité:</span>{" "}
             {project.disclaimer}
           </p>
         </Section>
